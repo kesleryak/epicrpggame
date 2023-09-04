@@ -1,10 +1,3 @@
-#Tasks to Complete:
-#Task 1: Build a casino (coinflip done)
-#Task 2: Finish the weapons
-#Task 3: Make sell for all monster drops
-#Task 4: Get good in the game ;)
-
-
 #imports
 import random
 
