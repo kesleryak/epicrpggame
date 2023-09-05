@@ -1,0 +1,11 @@
+Read this before looking at this game:
+
+Credits: Epic RPG in Discord as it gave me inspiration
+
+Before proceeding, make sure you know the rules about Epic RPG bot in Discord.
+
+If not, then here are the rules:
+1: Hunt for monsters using hunt.
+2: Heal yourself buy buying life potions in shop.
+3: Defeat the boss to advance to the next area.
+4: Use working commands to get materials for weapons and armor
