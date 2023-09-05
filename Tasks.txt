@@ -1,7 +1,8 @@
-Tasks to Complete:
+Tasks to Complete (for this game):
 
 ----------------------------------------------------------------
 
 1: Build a casino (coinflip done)
-2: Finish the weapons
-3: Make sell for all monster drops
+2: Finish all of the weapons
+3: Finish the sell command for all monster drops
+4: Create the time travel command
