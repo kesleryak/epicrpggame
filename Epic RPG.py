@@ -47,6 +47,7 @@ seed = 0
 noWood = 0
 noFish = 0
 noApple = 0
+noCoin = 0
 
 #farm variables
 plantExp = 0
@@ -330,6 +331,42 @@ while True:
             apple += noApple
         else:
             print("You are not in area 11+ yet. Go and fight the boss first.")
+
+    #mine command
+    elif home == "mine":
+        if area >= 5:
+            noCoin = random.randint(1000,3000)
+            print("You mined in a cave and gained", noCoin, "coins.")
+            coins += NoCoin
+        else:
+            print("You are not in area 5+ yet. Go and fight the boss first.")
+
+    #pickaxe command
+    elif home == "pickaxe":
+        if area >= 6:
+            noCoin = random.randint(4000,9000)
+            print("You mined in a cave and gained", noCoin, "coins.")
+            coins += NoCoin
+        else:
+            print("You are not in area 6+ yet. Go and fight the boss first.")
+
+    #drill command
+    elif home == "drill":
+        if area >= 10:
+            noCoin = random.randint(10000,27000)
+            print("You mined in a cave and gained", noCoin, "coins.")
+            coins += NoCoin
+        else:
+            print("You are not in area 10+ yet. Go and fight the boss first.")
+
+    #dynamite command
+    elif home == "dynamite":
+        if area >= 12:
+            noCoin = random.randint(28000,81000)
+            print("You mined in a cave and gained", noCoin, "coins.")
+            coins += NoCoin
+        else:
+            print("You are not in area 12+ yet. Go and fight the boss first.")
 
             
     #recipe command
