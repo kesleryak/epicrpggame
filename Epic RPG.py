@@ -303,6 +303,33 @@ while True:
             apple += noApple
         else:
             print("You are not in area 3+ yet. Go and fight the boss first.")
+            
+    #ladder command
+    elif home == "ladder":
+        if area >= 4:
+            noApple = random.randint(4,9)
+            print("You picked up fruits and you gained", noApple, "apples.")
+            apple += noApple
+        else:
+            print("You are not in area 4+ yet. Go and fight the boss first.")
+
+    #tractor command
+    elif home == "tractor":
+        if area >= 8:
+            noApple = random.randint(10,27)
+            print("You picked up fruits and you gained", noApple, "apples.")
+            apple += noApple
+        else:
+            print("You are not in area 8+ yet. Go and fight the boss first.")
+
+    #greenhouse command
+    elif home == "tractor":
+        if area >= 11:
+            noApple = random.randint(28,81)
+            print("You picked up fruits and you gained", noApple, "apples.")
+            apple += noApple
+        else:
+            print("You are not in area 11+ yet. Go and fight the boss first.")
 
             
     #recipe command
