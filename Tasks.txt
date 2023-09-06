@@ -6,3 +6,9 @@ Tasks to Complete (for this game):
 2: Finish all of the weapons
 3: Finish the sell command for all monster drops
 4: Create the time travel command
+
+Completed tasks:
+
+----------------------------------------------------------------
+
+Finished all working commands
