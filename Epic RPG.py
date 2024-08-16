@@ -199,7 +199,7 @@ while True:
         home = input("What would you like to buy? Type the number")
         if home == "1":
             if coins >= 25:
-                print("You bought a life potion.")
+                print("You bought a life potion. To use it, type use potion.")
                 lifePotion += 1
                 coins -= 25
             else:
